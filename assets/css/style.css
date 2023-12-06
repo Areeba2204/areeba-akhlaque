@@ -192,7 +192,9 @@ body.active { overflow: hidden; }
   line-height: 1.2;
 }
 
-.h2 { font-size: var(--fs-2); }
+.h2 { font-size: var(--fs-1); 
+  padding-top: 100px;
+}
 
 .h3 { font-size: var(--fs-3); }
 
