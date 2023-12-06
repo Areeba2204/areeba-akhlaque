@@ -193,7 +193,7 @@ body.active { overflow: hidden; }
 }
 
 .h2 { font-size: var(--fs-1); 
-  padding-top: 100px;
+  padding-top: 120px;
 }
 
 .h3 { font-size: var(--fs-3); }
