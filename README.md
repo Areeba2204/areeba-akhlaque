@@ -4,7 +4,6 @@
   <br />
   <br />
   
-  <img src="./readme-images/project-logo.png" />
 
   <h2 align="center">Areeba Akhlaque, portfolio</h2>
 
