@@ -20,11 +20,11 @@
    * colors
    */
 
-  --raw-seinna: hsl(24, 74%, 58%);
+  --raw-seinna: rgb(45, 212, 209);
   --sizzling-sunrise: hsl(51, 95%, 54%);
   --scarlet: hsl(13, 96%, 47%);
   --black: hsl(0, 0%, 0%);
-  --white: hsl(0, 0%, 100%);
+  --white: rgb(233, 242, 242);
 
   /**
    * typography
@@ -192,9 +192,7 @@ body.active { overflow: hidden; }
   line-height: 1.2;
 }
 
-.h2 { font-size: var(--fs-1); 
-  padding-top: 120px;
-}
+.h2 { font-size: var(--fs-1); }
 
 .h3 { font-size: var(--fs-3); }
 
@@ -475,18 +473,20 @@ main { overflow-x: hidden; }
 }
 
 .hero-banner {
-  max-width: 500px;
-  width: 125%;
+  max-width: 100%;
+  width: 100%;
   margin-bottom: 30px;
 }
 
 :is(.hero-social-list, .scroll-down) { display: none; }
 
-.hero-content { max-width: 450px; }
+.hero-content { max-width: 100%; }
 
 .hero-title {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  color: rgb(45, 212, 209);
+  /* text-shadow: rgb(130, 132, 130) ; */
 }
 
 .hero .btn-primary { margin-inline: auto; }
