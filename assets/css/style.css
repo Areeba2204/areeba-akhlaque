@@ -21,7 +21,7 @@
    */
 
   --raw-seinna: rgb(45, 212, 209);
-  --sizzling-sunrise: rgb(45, 212, 209);
+  --sizzling-sunrise: rgb(36, 173, 171);
   --scarlet: rgb(76, 76, 76);;
   --black: hsl(0, 0%, 0%);
   --white: rgb(233, 242, 242);
@@ -432,7 +432,7 @@ body.active { overflow: hidden; }
   font-size: var(--fs-1);
   padding: 10px;
   transform: translateY(50px);
-  transition: 0.75s cubic-bezier(0.68, -0.55, 0.27, 2);
+  transition: 0.2s cubic-bezier(0.68, -0.55, 0.27, 2);
 }
 
 .navbar.active .navbar-link {
@@ -452,7 +452,11 @@ body.active { overflow: hidden; }
   transition: var(--transition-1);
 }
 
-.navbar-link:is(:hover, :focus)::before { width: 100%;}
+/* .navbar-link:is(:hover, :focus)::before { width: 100%;} */
+.navbar-link:hover{
+  text-decoration: underline;
+  color: var(--raw-seinna);
+}
 
 
 
